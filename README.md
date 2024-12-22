@@ -36,7 +36,6 @@ To run it as a daemon:
 ```bash
 cargo run -- --config-path config/logker_config.toml --daemonize
 ```
-```
 
 To stop:
 
