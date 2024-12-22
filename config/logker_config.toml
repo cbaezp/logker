@@ -1,0 +1,6 @@
+log_files = ["/var/log/faillog"]
+failed_login_threshold = 5
+port_scan_threshold = 10
+ban_duration = 3600
+syn_ack_response = true
+custom_payload = "Access denied!"

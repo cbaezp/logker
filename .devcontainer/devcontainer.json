@@ -1,0 +1,15 @@
+{
+    "name": "Rust Linux Dev Container",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "logker-dev",
+    "workspaceFolder": "/usr/src/logker",
+    "extensions": [
+        "rust-lang.rust-analyzer",
+        "ms-vscode.cpptools",
+        "vadimcn.vscode-lldb",
+        "editorconfig.editorconfig"
+    ],
+    "settings": {
+        "rust-analyzer.checkOnSave.command": "clippy"
+    }
+}

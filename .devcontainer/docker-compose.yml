@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  logker-dev:
+    build:
+      context: ..
+    volumes:
+      - ..:/usr/src/logker:cached
+    tty: true
+    working_dir: /usr/src/logker
