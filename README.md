@@ -1,4 +1,4 @@
-# Logker
+# Logker - Test
 
 Lightweight daemon for monitoring logs and blocking activity on a Linux server.
 
