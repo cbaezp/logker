@@ -20,7 +20,6 @@ failed_login_threshold = 5         # Number of failed logins before blocking an 
 port_scan_threshold = 10           # Port scan attempts before blocking an IP
 ban_duration = 3600                # Ban duration in seconds
 syn_ack_response = true            # Send SYN-ACK response
-custom_payload = "See ya!"  # Custom payload for responses
 ```
 
 ## Running Logker
